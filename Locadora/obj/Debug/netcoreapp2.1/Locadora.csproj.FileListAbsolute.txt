@@ -9,3 +9,14 @@ C:\Users\luis.silva\OneDrive - Associacao Antonio Vieira\repos\Github\Exercicio-
 C:\Users\luis.silva\OneDrive - Associacao Antonio Vieira\repos\Github\Exercicio-Locadora\Locadora\Locadora\obj\Debug\netcoreapp2.1\Locadora.AssemblyInfo.cs
 C:\Users\luis.silva\OneDrive - Associacao Antonio Vieira\repos\Github\Exercicio-Locadora\Locadora\Locadora\obj\Debug\netcoreapp2.1\Locadora.dll
 C:\Users\luis.silva\OneDrive - Associacao Antonio Vieira\repos\Github\Exercicio-Locadora\Locadora\Locadora\obj\Debug\netcoreapp2.1\Locadora.pdb
+C:\Users\luis.silva\OneDrive - Associacao Antonio Vieira\repos\Github\Exercicio-Locadora\Locadora\bin\Debug\netcoreapp2.1\Locadora.deps.json
+C:\Users\luis.silva\OneDrive - Associacao Antonio Vieira\repos\Github\Exercicio-Locadora\Locadora\bin\Debug\netcoreapp2.1\Locadora.runtimeconfig.json
+C:\Users\luis.silva\OneDrive - Associacao Antonio Vieira\repos\Github\Exercicio-Locadora\Locadora\bin\Debug\netcoreapp2.1\Locadora.runtimeconfig.dev.json
+C:\Users\luis.silva\OneDrive - Associacao Antonio Vieira\repos\Github\Exercicio-Locadora\Locadora\bin\Debug\netcoreapp2.1\Locadora.dll
+C:\Users\luis.silva\OneDrive - Associacao Antonio Vieira\repos\Github\Exercicio-Locadora\Locadora\bin\Debug\netcoreapp2.1\Locadora.pdb
+C:\Users\luis.silva\OneDrive - Associacao Antonio Vieira\repos\Github\Exercicio-Locadora\Locadora\obj\Debug\netcoreapp2.1\Locadora.csprojAssemblyReference.cache
+C:\Users\luis.silva\OneDrive - Associacao Antonio Vieira\repos\Github\Exercicio-Locadora\Locadora\obj\Debug\netcoreapp2.1\Locadora.csproj.CoreCompileInputs.cache
+C:\Users\luis.silva\OneDrive - Associacao Antonio Vieira\repos\Github\Exercicio-Locadora\Locadora\obj\Debug\netcoreapp2.1\Locadora.AssemblyInfoInputs.cache
+C:\Users\luis.silva\OneDrive - Associacao Antonio Vieira\repos\Github\Exercicio-Locadora\Locadora\obj\Debug\netcoreapp2.1\Locadora.AssemblyInfo.cs
+C:\Users\luis.silva\OneDrive - Associacao Antonio Vieira\repos\Github\Exercicio-Locadora\Locadora\obj\Debug\netcoreapp2.1\Locadora.dll
+C:\Users\luis.silva\OneDrive - Associacao Antonio Vieira\repos\Github\Exercicio-Locadora\Locadora\obj\Debug\netcoreapp2.1\Locadora.pdb

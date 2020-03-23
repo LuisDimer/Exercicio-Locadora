@@ -4,19 +4,19 @@ namespace Locadora
 {
     public class Cliente
     {
-        public string Id { get; private set; }
-        public string Nome { get; private set; }
-        public string Cpf { get; private set; }
-        public string DataNascimento { get; private set; }
-        public DateTime DataCadastro { get; private set; }
+        public string IdCliente { get; private set; }
+        public string NomeCliente { get; private set; }
+        public string CpfCliente { get; private set; }
+        public string DataNascimentoCliente { get; private set; }
+        public DateTime DataCadastroCliente { get; private set; }
 
-        public Cliente(string Id, string nome, string cpf, string dataNascimento, DateTime dataCadastro)
+        public Cliente(string idCliente, string nomeCliente, string cpfCliente, string dataNascimentoCliente, DateTime dataCadastroCliente)
         {
-            Id = Id;
-            Nome = nome;
-            Cpf = cpf;
-            DataNascimento = dataNascimento;
-            DataCadastro = dataCadastro;
+            IdCliente = idCliente;
+            NomeCliente = nomeCliente;
+            CpfCliente = cpfCliente;
+            DataNascimentoCliente = dataNascimentoCliente;
+            DataCadastroCliente = dataCadastroCliente;
         }
     }
 }
