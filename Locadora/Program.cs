@@ -19,8 +19,10 @@ namespace Locadora
                 Console.WriteLine("3. Listar Filmes");
                 Console.WriteLine("4. Listar Clientes");
                 Console.WriteLine("5. Remover Filmes");
-                Console.WriteLine("6. Alterar Filme");
-                Console.WriteLine("7. SAIR");
+                Console.WriteLine("6. Remover Clientes");
+                Console.WriteLine("7. Alterar Filme");
+                Console.WriteLine("8. Alterar Cliente");
+                Console.WriteLine("9. SAIR");
                 Console.WriteLine("");
                 Console.Write(">> ");
                 string funcao = Console.ReadLine();
@@ -79,23 +81,23 @@ namespace Locadora
                         Console.WriteLine("Informe o nome do cliente");
                         Console.Write(">> ");
                         string nomeCliente = Console.ReadLine();
+                        Console.Clear();
 
-                        Console.WriteLine("");
                         Console.WriteLine("Informe o CPF do cliente");
                         Console.Write(">> ");
                         string cpfCliente = Console.ReadLine();
+                        Console.Clear();
 
-                        Console.WriteLine("");
                         Console.WriteLine("Informe a data de nascimento do cliente");
                         Console.Write(">> ");
                         string dataNascimentoCliente = Console.ReadLine();
+                        Console.Clear();
 
                         DateTime dataCadastroCliente = DateTime.Now;
 
                         var cliente = new Cliente(idCliente, nomeCliente, cpfCliente, dataNascimentoCliente, dataCadastroCliente);
                         clientes.Adicionar(cliente);
 
-                        Console.WriteLine("");
                         Console.WriteLine("======= Cliente Cadastrado ===========================");
                         Console.WriteLine($"Nome: {cliente.NomeCliente}");
                         Console.WriteLine($"CPF: {cliente.CpfCliente}");
@@ -103,7 +105,7 @@ namespace Locadora
                         Console.WriteLine($"Cadastro criado em: {cliente.DataCadastroCliente}");
                         Console.WriteLine($"ID: {cliente.IdCliente}");
                         Console.WriteLine("");
-                        Console.WriteLine("Cadatro finalizado, aperte ENTER para sair...");
+                        Console.WriteLine("Cadastro finalizado, aperte ENTER para sair...");
                         Console.ReadLine();
                         Console.Clear();
                         break;
@@ -127,16 +129,26 @@ namespace Locadora
                         break;
 
                     case "5":
-                        Console.WriteLine("Informe o nome do filme que deseja ser removido");
+                        Console.WriteLine("Informe o nome do filme que deseja deletar");
                         string nomeFilmeRemover = Console.ReadLine();
                         filmes.RemoverFilme(nomeFilmeRemover);
                         break;
 
                     case "6":
-                        filmes.AlterarCadastroFilme();
+                        Console.WriteLine("Informe o nome do Cliente que deseja deletar");
+                        string nomeClienteRemover = Console.ReadLine();
+                        clientes.RemoverCliente(nomeClienteRemover);
                         break;
 
                     case "7":
+                        filmes.AlterarCadastroFilme();
+                        break;
+
+                    case "8":
+                        clientes.AlterarCadastroCliente();
+                        break;
+
+                    case "9":
                         execucao = false;
                         break;
 

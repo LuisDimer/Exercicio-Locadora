@@ -83,11 +83,11 @@ namespace Locadora
                             Console.Write("");
                             Console.Write(">> ");
                             string opcaoAlterarCadastro = Console.ReadLine();
-                            Console.Clear();
 
                             switch (opcaoAlterarCadastro)
                             {
                                 case "1":
+                                    Console.Clear();
                                     Console.WriteLine("Digite o novo nome:");
                                     Console.Write(">> ");
                                     string nomeNovo = Console.ReadLine();
@@ -99,6 +99,7 @@ namespace Locadora
                                     break;
 
                                 case "2":
+                                    Console.Clear();
                                     Console.WriteLine("Digite o Genero desejado: Ação, Comédia, Ficção, Romance, Terror");
                                     Console.Write(">> ");
                                     string novoGenero = Console.ReadLine();
@@ -111,6 +112,7 @@ namespace Locadora
                                     break;
 
                                 case "3":
+                                    Console.Clear();
                                     Console.WriteLine("Digite a mídia desejada: BluRay; DVD; VHS");
                                     Console.Write(">> ");
                                     string novoTipoMidia = Console.ReadLine();
@@ -123,6 +125,7 @@ namespace Locadora
                                     break;
 
                                 case "4":
+                                    Console.Clear();
                                     Console.WriteLine("Opção Preço selecionada, digite o novo valor");
                                     Console.Write(">> R$");
                                     string novoPreco = Console.ReadLine();
@@ -135,13 +138,13 @@ namespace Locadora
                                     break;
 
                                 case "5":
-                                    Console.WriteLine("Aperte ENTER para sair...");
-                                    Console.ReadLine();
+                                    Console.Clear();
                                     execucao = false;
                                     Console.Clear();
                                     break;
 
                                 default:
+                                    Console.WriteLine("");
                                     Console.WriteLine("Foi digitado incorretamente o número da opção, aperte ENTER para sair...");
                                     Console.ReadLine();
                                     Console.Clear();
